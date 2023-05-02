@@ -10,25 +10,25 @@ const Rutas = () => {
     <div>
         <BrowserRouter>
 
-<Routes>
-<Route 
-  path='Home'
-  element = { <Home /> } />
+              <Routes>
+              <Route 
+                path= '/'
+                element = { <Home /> } />
 
-<Route 
-path='Menu'
-element = {<Menu />} />
+              <Route 
+              path='Menu'
+              element = {<Menu />} />
 
-<Route 
-path='Recipe' 
-element = {<Recipe />} />
+              <Route 
+              path='Recipe' 
+              element = {<Recipe />} />
 
-<Route
-path='AboutUs'
-element={<Aboutus />} />
-</Routes>
+              <Route
+              path='AboutUs'
+              element={<Aboutus />} />
+              </Routes>
 
-</BrowserRouter>
+        </BrowserRouter>
     </div>
   )
 }
