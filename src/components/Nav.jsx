@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../images/El-barbero.png'
+import img1 from '../images/El-Barbero.png'
 //import { Link } from 'react-router-dom'
 
 const Nav = () => {
