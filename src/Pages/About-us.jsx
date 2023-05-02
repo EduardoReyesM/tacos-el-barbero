@@ -1,6 +1,6 @@
 import React from 'react'
 import img12 from '../images/tacos-aboutus.jpeg'
-import img13 from '../images/instagram.avif'
+import img13 from '../images/Instagram.avif'
 import img14 from '../images/facebook-log.ico'
 import img15 from '../images/tiktok-log.png'
 
