@@ -1,0 +1,136 @@
+body {
+    padding: 0;
+    margin:0;
+}
+/* Nav */
+.Logo {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*padding-top: 1.4vh;*/
+    border: 0px solid ;
+    background-color: #BECC2A;
+    height: 8vh;
+}
+.Nav-sep {
+    padding-left: 10vw;
+    text-decoration: none;
+    color: black;
+    font-size: 2.2vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Home */
+.Main-image {
+   background-image: url(/src/images/Tacos-img.jpg);
+   background-repeat: no-repeat;
+   padding-top: 300px;
+   padding-bottom: 300px;
+   display: flex;
+   justify-content: center;
+   font-size: 100px;
+   color: white;
+}
+.align-setup {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.align-setup p {
+    max-width: 250px;
+}
+
+/* Menu */
+
+.Align-Menu {
+    display: flex;
+}
+
+.Menu-center {
+    display: flex;
+    justify-content:center ;
+}
+
+.img-height {
+    width: 750px;
+    height: 983px;
+}
+
+.right-menu {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;;
+}
+
+.align-contentimg {
+    padding-left: 25px;
+}
+
+.photo-radius {
+    border-radius: 25%;
+}
+
+/* Recipe */
+
+.Recipe-back-color {
+    background-image: url(src/images/fresh-produce.jpeg);
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+/* RecipiList */
+.dropdown-list {
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.hover-list:hover{
+ color: aqua;
+}
+
+/* About Us */
+
+.about-us-img {
+   display: flex;
+   justify-content: center;
+}
+
+.about-us-asign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-asign p {
+  padding-left: 5rem;
+  max-width: 350px;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aboutus-SNW {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Footer */
+
+ .Footer {
+    border: 5px solid #BECC2A;
+    background-color: #BECC2A;
+}
+.Footer-inside {
+  display:flex;
+  justify-content: center;
+}
