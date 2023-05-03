@@ -3,16 +3,14 @@ import Home from '../Pages/Home'
 import Menu from '../Pages/Menu'
 import Recipe from '../Pages/Recipe'
 import Aboutus from '../Pages/About-us'
-import {BrowserRouter,Routes, Route } from "react-router-dom"
+import {Routes, Route } from "react-router-dom"
 
 const Rutas = () => {
   return (
     <div>
-        <BrowserRouter>
-
-              <Routes>
+         <Routes>
               <Route 
-                path= '/'
+                path= '/Home'
                 element = { <Home /> } />
 
               <Route 
@@ -26,9 +24,8 @@ const Rutas = () => {
               <Route
               path='AboutUs'
               element={<Aboutus />} />
-              </Routes>
+         </Routes>
 
-        </BrowserRouter>
     </div>
   )
 }
