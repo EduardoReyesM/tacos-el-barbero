@@ -10,7 +10,7 @@ import img11 from '../images/tacos-salsa-huevo.jpeg'
 const Menu = () => {
   return (
     <div className='Align-Menu'>
-        <div >
+        <div className='img-height' >
             <img className='img-height' src={img5} alt='photo'/>
         </div>
 

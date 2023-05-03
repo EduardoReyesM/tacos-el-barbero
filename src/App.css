@@ -57,8 +57,11 @@ body {
 }
 
 .img-height {
-    width: 750px;
-    height: 983px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1;
+
 }
 
 .right-menu {
@@ -79,9 +82,11 @@ body {
 
 .Recipe-back-color {
     background-image: url(src/images/fresh-produce.jpeg);
+    width: 100%;
     background-repeat: no-repeat;
     padding-top: 60px;
     padding-bottom: 120px;
+    background-size: cover;
 }
 
 /* RecipiList */
